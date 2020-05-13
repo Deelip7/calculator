@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+*,
+*::before,
+*::after {
+  box-sizing: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "lato", sans-serif;
+  background-color: #a9a9a9;
+}
+
+.container {
+  background-color: rgb(238, 238, 238);
+  margin: 120px auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+.user__input {
+  width: 100%;
+  height: 5rem;
+}
+
+.user {
+  display: grid;
+}
+
+.user__control {
+  background-color: #ffffffba;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.user__control div {
+  border: 1px rgb(113, 113, 113) solid;
+  padding: 1rem 1rem;
+}
+.--row-five {
+  grid-template-columns: 2fr 1fr 1fr;
+}
